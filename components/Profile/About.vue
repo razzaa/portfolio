@@ -7,7 +7,7 @@
       </div>
 
       <div class="content">
-        <h3>my name is <span> shaikh anas </span></h3>
+        <h3>my name is <span> ali raza </span></h3>
         <p class="info">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis,
           dolorem omnis dolorum non provident distinctio inventore culpa in, nam
@@ -22,10 +22,10 @@
             <p><span> freelance : </span> available</p>
           </div>
           <div class="box">
-            <p><span> language : </span> hindi / english</p>
+            <p><span> language : </span> Urdu / english</p>
             <p><span> phone : </span> +123-456-7890</p>
-            <p><span> email : </span> shaikhanas@gmail.com</p>
-            <p><span> address : </span> mumbai, india - 400104</p>
+            <p><span> email : </span> malirazaus@gmail.com</p>
+            <p><span> address : </span> lahore, pakistan - 54000</p>
           </div>
         </div>
         <a href="#" class="btn">download CV</a>
