@@ -12,11 +12,15 @@ window.onscroll = () =>{
     header.classList.remove('active');
 };
 
-var typed = new Typed('.typing-text', {
-    strings : ['front end developer', 'web designer', 'graphic designer', 'web developer'],
-    loop : true,
-    typeSpeed : 150
-});
+let path = window.location.pathname;
+if (path == "/") {
+    var typed = new Typed('.typing-text', {
+        strings : ['front end developer', 'web designer', 'web developer'],
+        loop : true,
+        typeSpeed : 150
+    });
+};
+
 
 VanillaTilt.init(document.querySelectorAll('.tilt'),{
     max:25
