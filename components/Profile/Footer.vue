@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    created by <span> ali raza </span> | all rights reserved!
+    created by <span> ali </span> | all rights reserved!
   </div>
 </template>
 

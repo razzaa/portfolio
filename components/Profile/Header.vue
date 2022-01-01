@@ -2,12 +2,12 @@
   <header>
     <div id="menu-bars" class="fas fa-bars"></div>
     <nav class="navbar">
-      <a href="#home">home</a>
-      <a href="#about">about</a>
-      <a href="#services">services</a>
-      <a href="#portfolio">portfolio</a>
-      <a href="#blogs">blogs</a>
-      <a href="#contact">contact</a>
+      <NuxtLink to="/" >home</NuxtLink>
+      <NuxtLink to="/about" >about</NuxtLink>
+      <NuxtLink to="/services" >services</NuxtLink>
+      <NuxtLink to="/portfolio" >portfolio</NuxtLink>
+      <NuxtLink to="/blogs" >blogs</NuxtLink>
+      <NuxtLink to="/contact" >contact</NuxtLink>
     </nav>
   </header>
 </template>
