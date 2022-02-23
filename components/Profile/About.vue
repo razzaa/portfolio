@@ -9,10 +9,7 @@
       <div class="content">
         <h3>my name is <span> ali raza </span></h3>
         <p class="info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis,
-          dolorem omnis dolorum non provident distinctio inventore culpa in, nam
-          eligendi quos modi vel aliquid blanditiis velit natus voluptatem
-          deleniti.
+          I am a Full Stack developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with C++ and PHP. I also have experience working with Laravel, Vue and Nuxt. Take a look at my work or get in touch! www.aliraza.us
         </p>
         <div class="box-container">
           <div class="box">
