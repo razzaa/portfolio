@@ -4,6 +4,7 @@ export default {
   ssr: false, // Disable Server Side rendering
   router: {
     // base: '/portfolio/'
+    middleware: ['menu']
   },
   head: {
     title: 'portfolio',
@@ -18,29 +19,20 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'}
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' }
     ],
     script: [
       {
         src: "https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js",
-        body: true,
-      },
-      {
-        src: "js/particles.min.js",
-        footer: true,
-      },
-      
-      {
-        src: "js/app.js",
-        body: true,
+        defer: true,
       },
       {
         src: "https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js",
-        body: true,
+        defer: true,
       },
       {
         src: "/js/main.js",
-        body: true,
+        defer: true,
       },
 
     ]
@@ -53,6 +45,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/particles', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

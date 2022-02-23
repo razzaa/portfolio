@@ -1,12 +1,12 @@
 <template>
   <div>
       <ProfileHeader />
-      <ProfileHome />
+      <ProfileServices />
   </div>
 </template>
 
 <script>
 export default {
-  name: "IndexPage",
+  name: "ServicesPage",
 };
 </script>
