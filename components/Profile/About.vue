@@ -3,7 +3,7 @@
     <h1 class="heading">about <span>me</span></h1>
     <div class="row">
       <div class="image">
-        <img class="tilt" src="images/about-pic.jpg" alt="" />
+        <img class="tilt" src="images/about-pic.JPG" alt="" />
       </div>
 
       <div class="content">
