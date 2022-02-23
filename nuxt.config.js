@@ -3,7 +3,7 @@ export default {
   target: 'static',
   ssr: false, // Disable Server Side rendering
   router: {
-    base: '/portfolio/',
+    base: '/',
     middleware: ['menu']
   },
   head: {
